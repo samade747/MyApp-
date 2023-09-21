@@ -20,7 +20,7 @@ function signin(){
 
 
 function redirectToSignUp() {
-    location.href = './signup.html';
+    location.href = './index.html';
 }
 
 function redirectToSignIn() {
