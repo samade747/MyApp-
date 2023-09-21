@@ -3,15 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>My App Sign Up Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .form-container h1 {
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .form-container button {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <h1>SIGN UP PAGE</h1>
+    <!-- <h1>SIGN UP PAGE</h1>
     <input type="text" placeholder="enter email" name="" id="semail"><br><br>
     <input type="password" placeholder="enter password" name="" id="spass"><br><br>
-    <button onclick="signup()">Sign Up</button>
+    <button onclick="signup()">Sign Up</button> -->
 
-
+    <div class="form-container">
+        <h1>SIGN UP PAGE</h1>
+        <input type="text" class="form-control" id="semail" placeholder="Email"><br>
+        <input type="password" class="form-control" id="spass" placeholder="Password"><br>
+        <button class="btn btn-primary" onclick="signup()">Sign Up</button>
+    </div>
 
 
 

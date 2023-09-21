@@ -3,7 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>object</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .form-container h1 {
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .form-container button {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <h1>Welcome <script>document.write(localStorage.getItem('Email'))</script> </h1>
