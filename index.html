@@ -11,6 +11,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
+            background-color: black;
         }
         .form-container {
             max-width: 400px;
@@ -29,6 +30,7 @@
         }
         .form-container button {
             width: 100%;
+            margin: 10px;
         }
     </style>
 </head>
@@ -43,6 +45,8 @@
         <input type="text" class="form-control" id="semail" placeholder="Email"><br>
         <input type="password" class="form-control" id="spass" placeholder="Password"><br>
         <button class="btn btn-primary" onclick="signup()">Sign Up</button>
+        <button class="btn btn-primary" onclick="redirectToSignIn()">Sign In(Already signed up)</button>
+
     </div>
 
 

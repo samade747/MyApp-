@@ -17,3 +17,12 @@ function signin(){
     location.href = './index.html'
     }
 }
+
+
+function redirectToSignUp() {
+    location.href = './signup.html';
+}
+
+function redirectToSignIn() {
+    location.href = './signin.html';
+}

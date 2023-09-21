@@ -3,7 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <title>SIGN In PAGE</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: black;
+        }
+        .form-container {
+            max-width: 400px;
+            width: 100%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+        .form-container h1 {
+            text-align: center;
+        }
+        .form-container input {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .form-container button {
+            width: 100%;
+            margin: 10px;
+        }
+    </style>
 </head>
 <body>
     <!-- <h1>SIGN In PAGE</h1>
@@ -14,10 +43,12 @@
 
 
     <div class="form-container">
-        <h1>SIGN IP PAGE</h1>
+        <h1>SIGN In PAGE</h1>
         <input type="text" class="form-control" id="lemail" placeholder="Email"><br>
         <input type="password" class="form-control" id="lpass" placeholder="Password"><br>
-        <button class="btn btn-primary" onclick="signin()">Sign Up</button>
+        <button class="btn btn-primary" onclick="signin()">Login</button>
+        <button class="btn btn-primary" onclick="redirectToSignUp()">Sign Up</button>
+
     </div>
 
 
