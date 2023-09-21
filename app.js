@@ -12,16 +12,16 @@ function signin(){
     if(localStorage.getItem('Email') == email && localStorage.getItem('password') == pass){
         window.location.href = './welcome.html'
     }
-    // else{
-    // alert('invalid user name password  ..');
-    // window.location.href = './index.html'
-    // }
+    else{
+    alert('invalid user name password  ..');
+    window.location.href = './index.html'
+    }
 }
 
 
-// function redirectToSignUp() {
-//     window.location.href = './index.html';
-// }
+function redirectToSignUp() {
+    window.location.href = './index.html';
+}
 
 function redirectToSignIn() {
     window.location.href = './signin.html';
